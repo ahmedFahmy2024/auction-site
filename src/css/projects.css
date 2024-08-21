@@ -1,0 +1,22 @@
+.projects {
+    background-color: #F2F2F2;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+}
+
+@media (max-width: 768px) {
+    .projects .firstgrid {
+        order: 2;
+    }
+    .projects .secondgrid {
+        order: 1;
+    }
+    .projects .last {
+        order: 3;
+    }
+}
+
+.projects .last {
+    width: 100%;
+}
+

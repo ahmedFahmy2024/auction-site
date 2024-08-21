@@ -1,0 +1,86 @@
+.cooperating {
+    background-color: var(--cooperating-color);
+    padding-bottom: 20px;
+}
+
+.cooperating .cooperating-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3% 13%;
+}
+
+.cooperating .cooperating-container .cooperating-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+    margin-bottom: 20px;
+}
+
+.cooperating .cooperating-container .cooperating-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.cooperating .container-cooperating-logo {
+    padding: 3% 13%;
+}
+
+.cooperating .container-cooperating-logo .cooperating-logo-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.cooperating .container-cooperating-logo .cooperating-logo-second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+@media (max-width: 900px) {
+    .cooperating .cooperating-container {
+        padding: 50px 0 0 0;
+    }
+
+    .cooperating .cooperating-container .cooperating-title {
+        margin-bottom: 20px;
+    }
+
+    .cooperating .cooperating-container .cooperating-text {
+        margin-bottom: 30px;
+    }
+
+    .cooperating .container-cooperating-logo {
+        padding: 0;
+    }
+
+    .cooperating .container-cooperating-logo .cooperating-logo-first {
+        display: flex;
+    }
+
+    .cooperating .container-cooperating-logo .cooperating-logo-first div {
+        width: 50%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .cooperating .container-cooperating-logo .cooperating-logo-second {
+        display: flex;
+    }
+
+    .cooperating .container-cooperating-logo .cooperating-logo-second div {
+        width: 50%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}

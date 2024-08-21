@@ -1,0 +1,23 @@
+.moreinfo {
+    margin-top: 20px;
+}
+
+.moreinfo .moreinfo-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10%;
+}
+
+.moreinfo .moreinfo-card h3 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.moreinfo .moreinfo-card p {
+    color: #5F5F5F;
+    font-weight: 400;
+    font-size: 16px;
+}

@@ -1,0 +1,46 @@
+.change {
+    background-color: #F2F2F2;
+}
+
+.change .image-container {
+    background-image: url("../assets/Mask\ group.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    height: 100%;
+}
+
+.change .padding {
+    padding: 10%;
+}
+
+.change .grid-image,
+.change .grid-text {
+    padding: 0 8px 0 8px !important;
+}
+
+.change .padding h2 {
+    color: #034694;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.change fieldset.MuiOutlinedInput-notchedOutline {
+    background-color: white;
+    color: black;
+}
+
+.change input,
+.change svg {
+    z-index: 1;
+}
+
+.change .stack {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+}

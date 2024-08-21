@@ -1,0 +1,61 @@
+:root {
+  --primary-color: #D87631;
+  --footer-color: #2B2B2B;
+  --cooperating-color: #F2F2F2;
+  --content-text-color: #414141;
+  --header-text-color: #034694;
+}
+
+body {
+  margin: 0;
+  font-family: "Tajawal", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: "Tajawal", sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+  font-family: "Tajawal", sans-serif !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+} */

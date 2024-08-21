@@ -1,0 +1,20 @@
+.filter {}
+
+.filter .filter-title .filter-title-header {
+    margin-top: 20px;
+    font-weight: 400;
+    color: #000000;
+    margin-right: 9px;
+}
+
+.filter .filter-title .check-one {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.filter .filter-title .check-desc {
+    font-weight: 400;
+    font-size: 16px;
+
+}

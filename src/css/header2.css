@@ -1,0 +1,31 @@
+.header2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header2 .links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header2 .link-header {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--header-text-color);
+}
+
+.header2 .active p {
+    color: var(--primary-color) !important;
+    font-weight: 700 !important;
+    border-bottom: 1px solid var(--primary-color) !important;
+}
+
+.header2 .side-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}

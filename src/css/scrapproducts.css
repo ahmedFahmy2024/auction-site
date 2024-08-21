@@ -1,0 +1,119 @@
+.scrapproducts {
+    width: 100%;
+}
+
+.scrapproducts .nav-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.scrapproducts .box {
+    border: 1px solid #e9e9e9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.scrapproducts .box .img-container img {
+    max-width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
+.scrapproducts .box .text {
+    padding: 0 10px;
+}
+
+.scrapproducts .box .text h4 {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.scrapproducts .box .text .stack {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.scrapproducts .box .text .stack-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.scrapproducts .box .text .stack.mb {
+    margin-bottom: 10px;
+}
+
+.scrapproducts .box .text .stack-row .category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 25px;
+    background-color: #D87631;
+    color: white;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.scrapproducts .box .text .stack .icons {
+    margin-top: 10px;
+}
+
+.scrapproducts .box .text .stack .icons.border-left {
+    border-left: 1px solid #00000030;
+    padding-left: 10px;
+}
+
+.scrapproducts .box .text .stack .icons div {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.scrapproducts .finished {
+    opacity: 0.5;
+    cursor: not-allowed !important;
+}
+
+.scrapproducts .box {
+    position: relative;
+  }
+  
+  .scrapproducts .auction-ended-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+@media (max-width: 600px) {
+    .scrapproducts .box .text {
+        text-align: center;
+    }
+
+    .scrapproducts .box .text h4 {
+        font-size: 16px;
+    }
+
+    .scrapproducts .box .text .stack .category {
+        padding: 2px 4px;
+        font-size: 13px;
+    }
+
+    .scrapproducts .box .text .stack {
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+}
+

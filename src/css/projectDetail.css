@@ -1,0 +1,137 @@
+.projectdetail {
+    background-color: #F2F2F2;
+    padding-bottom: 30px;
+}
+
+.projectdetail .header-project-detail {
+    height: 40vh;
+    padding-top: 30px;
+}
+
+.projectdetail .header-project-detail .header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.projectdetail .detail-body {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: -30px 20px 0 20px;
+    z-index: 10;
+    position: relative;
+}
+
+.projectdetail .detail-body .project-body {
+    margin: 0px;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(99, 115, 129);
+}
+
+.projectdetail .all-text {
+    margin-top: 20px;
+}
+
+.projectdetail .all-text .main-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.projectdetail .all-text .main-text {
+    color: #D876318A;
+    font-size: 18px;
+}
+
+.projectdetail .all-text .stack {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.projectdetail .all-text .sub-text {
+    color: #6B6B6B;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.projectdetail .other-project {
+    margin-top: 50px;
+    background-color: #F8F8F8;
+}
+
+.projectdetail .other-project .sec-title {
+    text-align: center;
+    padding: 30px 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.oneproject .card-text .stack {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.oneproject .card-text h3 {
+    font-weight: 500;
+    color: #292929;
+    font-size: 24px;
+}
+
+.oneproject .card-text .card-location {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.oneproject .card-text .card-location-icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #034694;
+}
+
+.oneproject .card-text .card-location p {
+    color: #9B9B9B;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.oneproject .card-text .card-date {
+    color: #0000007A;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.oneproject .card-text .card-category {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    color: #AC5C008A;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.oneproject .card-text .card-description {
+    color: #505050;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.projectdetail .swiper-container-slider {
+    margin: 0 10px;
+}

@@ -1,0 +1,21 @@
+.browsescrap {
+    background-color: #F2F2F2;
+}
+
+.browsescrap .first-row {
+    padding: 20px 0;
+}
+
+.browsescrap .login .image-container {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .browsescrap .first-grid {
+        order: 2;
+    }
+
+    .browsescrap .second-grid {
+        order: 1;
+    }
+}

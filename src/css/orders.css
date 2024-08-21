@@ -1,0 +1,15 @@
+.orders {
+    background-color: #F2F2F2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+    .orders .first-grid {
+        order: 2;
+    }
+
+    .orders .second-grid {
+        order: 1;
+    }
+}

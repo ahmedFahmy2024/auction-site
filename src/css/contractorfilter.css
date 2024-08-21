@@ -1,0 +1,57 @@
+.contractorfilter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contractorfilter .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl {
+    font-size: 14px;
+}
+
+.contractorfilter .country {
+    width: 150px;
+}
+
+.contractorfilter .country label {
+    color: #AC5C008A !important;
+    top: -9px !important;
+}
+
+.contractorfilter .country svg {
+    color: #515151 !important;
+    z-index: 1 !important;
+}
+
+.contractorfilter fieldset.MuiOutlinedInput-notchedOutline {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: white;
+    border-radius: 29px;
+}
+
+.contractorfilter div#demo-simple-select {
+    z-index: 1;
+    padding: 5px;
+}
+
+.contractorfilter div#demo2-simple-select {
+    z-index: 1;
+    padding: 5px;
+}
+
+.contractorfilter .checkout-select div#demo-select-small1 {
+    z-index: 1;
+}
+.contractorfilter .checkout-select svg {
+    z-index: 1;
+}
+
+.contractorfilter .checkout-select div#demo-select-small2 {
+    z-index: 1;
+}
+.contractorfilter .checkout-select svg {
+    z-index: 1;
+}

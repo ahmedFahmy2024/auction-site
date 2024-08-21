@@ -1,0 +1,123 @@
+.card:not(:last-child) {
+    border-bottom: 1px solid #00000024;
+    padding-bottom: 15px;
+}
+
+.card:not(:first-child) {
+    padding-top: 15px;
+}
+
+.card .stack {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.card .card-img {
+    width: 350px;
+    object-fit: cover;
+}
+
+.card .card-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card .card-text h3 {
+    font-weight: 500;
+    color: #292929;
+    font-size: 24px;
+}
+
+.card .card-text .card-location {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.card .card-text .card-location-icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #034694;
+}
+
+.card .card-text .card-location p {
+    color: #9B9B9B;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card .card-text .card-date {
+    color: #0000007A;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.card .card-text .card-category {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    color: #AC5C008A;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 9px 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.card .card-text .card-description {
+    color: #505050;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card .card-text .card-description {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3!important;
+    -webkit-box-orient: vertical!important;
+    overflow: hidden!important;
+}
+
+.card .card-text .card-location-icon {
+    height: 10px!important;
+    width: 10px!important;
+}
+
+.card .stack {
+    gap: 10px !important;
+}
+
+.project .card a {
+    position: relative !important;
+}
+
+.project .card .card-img img {
+    aspect-ratio: 1.5 / 1 !important;
+    object-fit: cover !important;
+}
+
+.project .card .card-text .card-category {
+    position: absolute;
+    right: 10px !important;
+    top: 10px !important;
+    background-color: #d87631;
+    color: white !important;
+    padding: 5px !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+}
+
+@media (max-width: 768px) {
+    .card .card-img {
+        width: 100% !important;
+    }
+    
+}

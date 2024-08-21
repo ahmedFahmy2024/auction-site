@@ -1,0 +1,58 @@
+.myimage {
+    display: flex;
+    gap: 20px;
+}
+
+.myimage .myimage-container {
+    width: 400px;
+    height: auto;
+    /* Automatically adjust height to maintain aspect ratio */
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.myimage .myimage-container img {
+    width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.myimage .slider-container {
+    /* width: 110px;
+    height: 110px; */
+    /* Ensure uniform square size for the slider items */
+    overflow: hidden;
+    /* Hide overflow to ensure images fit within the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myimage .slider-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    /* Ensure the image covers the container without distortion */
+    object-position: center;
+}
+
+.myimage img {
+    max-width: 100%;
+}
+
+.myimage .slider-container img {
+    aspect-ratio: 1 / 1 !important;
+    object-fit: cover !important;
+}
+
+@media (max-width: 500px) {
+    .myimage {
+        gap: 10px;
+    }
+    .myimage .swiper.swiper-initialized.swiper-vertical.swiper-backface-hidden {
+        height: 280px !important;
+    }
+    /* .myimage .myimage-container {
+        width: 300px;
+    } */
+}

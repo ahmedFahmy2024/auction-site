@@ -1,0 +1,34 @@
+.err403 .image-container{
+    width: 100%;
+    height: 600px;
+}
+.err403 .column-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.err403 .image-container .image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.err403 .column-row h3{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #D87631;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+@media (max-width: 600px) {
+    .err403 .column-row h3{
+        font-size: 30px;
+    }
+}

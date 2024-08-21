@@ -1,0 +1,231 @@
+.supplierform2 {
+    background-color: #F2F2F2;
+    padding: 50px 0;
+}
+
+.supplierform2 .preview {
+    flex-direction: column;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    margin: 4px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    opacity: 1;
+    transform: none
+}
+
+.supplierform2 .preview .prev-image {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: inherit;
+}
+
+.supplierform2 .preview .prev-image img {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+    /* position: absolute; */
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.supplierform2 .container {
+    max-width: 900px;
+}
+
+.supplierform2 .head-title {
+    color: #034694;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.supplierform2 .section-one {
+    background-color: white;
+    padding: 50px 100px;
+}
+
+.supplierform2 .section-one .stack {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.supplierform2 .section-one .stack .outline-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D87631;
+    border: 1px solid #D87631;
+    border-radius: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.supplierform2 .section-one .stack .outline-btn:hover {
+    background-color: #D87631;
+    color: white;
+}
+
+.supplierform2 .section-one .stack .outline-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
+.supplierform2 .section-one .text-sec {
+    margin: 10px 0;
+}
+
+.supplierform2 .section-one .title {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.supplierform2 .section-one .name {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.supplierform2 .section-one .stack hr {
+    height: 20px;
+    width: 1px;
+    border-width: 0;
+    background-color: #B1B1B1;
+    margin: 0 10px;
+}
+
+.supplierform2 .section-one .stack.gap {
+    gap: 10px;
+}
+
+.supplierform2 .section-one .stack .date {
+    color: #606060;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.supplierform2 .section-one .stack .views {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.supplierform2 .section-one .stack .views .view-num {
+    color: #034694;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.supplierform2 .section-one .category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.supplierform2 .section-one .category .card-category {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    color: #AC5C008A;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 7px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.supplierform2 .section-one .location {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #606060;
+    margin-top: 10px;
+}
+
+.supplierform2 .section-one .location .country {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.supplierform2 .section-one .location .state {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.supplierform2 .section-one .content {
+    color: #5F5F5F;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.supplierform2 .section-one .file {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.supplierform2 .box {
+    margin-top: 50px;
+    background-color: #F6F6F6;
+    border: 1px solid #BBBBBB;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.supplierform2 .box .title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.supplierform2 .box .offer {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.supplierform2 fieldset.MuiOutlinedInput-notchedOutline {
+    background-color: white;
+    color: black;
+}
+
+.supplierform2 input,
+.supplierform2 textarea,
+.supplierform2 svg {
+    z-index: 1;
+}
+
+
+@media (max-width: 768px) {
+    .supplierform2 .section-one {
+        padding: 20px;
+    }
+
+    .supplierform2 hr {
+        display: none;
+    }
+
+}

@@ -1,0 +1,58 @@
+.header1 {
+    margin-top: 10px;
+}
+
+.header1 .logo {
+    cursor: pointer;
+}
+
+.header1 .translate {
+    width: 31px;
+    height: 31px;
+}
+
+.side-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 999;
+    height: 100vh;
+    width: 220px;
+}
+
+.header1.rtl .side-bar {
+    right: 0;
+    left: unset;
+}
+
+.header1 .link-header {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--header-text-color);
+}
+
+.header1 .active p {
+    color: var(--primary-color) !important;
+    font-weight: 700 !important;
+    border-bottom: 1px solid var(--primary-color) !important;
+}
+
+.header1 .side-menu p {
+    text-align: center;
+    padding: 10px;
+}
+
+.header1 .stack-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* margin-bottom: 20px; */
+}
+.header1 .stack-row .notification{
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    aspect-ratio: 1/1;
+}

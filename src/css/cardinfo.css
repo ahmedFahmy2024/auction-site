@@ -1,0 +1,105 @@
+.complain {
+    margin-top: 20px;
+}
+.complain .firstbox {
+    background-color: rgb(255, 255, 255);
+    color: rgb(33, 43, 54);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-image: none;
+    overflow: hidden;
+    /* position: relative; */
+    box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+    border-radius: 16px;
+    /* z-index: 0; */
+}
+
+.complain .info {
+    position: relative;
+}
+
+.complain .info .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-shrink: 0;
+    border-left: 1px solid rgba(145, 158, 171, 0.2);
+    transition: width 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.complain .info .card .card-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.complain .info .card .card-title .image-profile {
+    margin-bottom: 16px;
+}
+
+.complain .info .card .card-title h6 {
+    margin: 0px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+.complain .info .card .card-title h6 a{
+    margin: 0px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: inherit;
+}
+
+.complain .info .card .card-title .job-title {
+    margin: 4px 0px 0px;
+    line-height: 1.57143;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgb(99, 115, 129);
+}
+
+.complain .info .card h3 {
+    color: rgb(99, 115, 129);
+    background-color: rgb(244, 246, 248);
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    padding: 8px 12px 8px 20px;
+    text-align: center;
+}
+
+.complain .info .card .card-content {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 20px 16px 20px;
+    justify-content: space-around;
+}
+
+.complain .info .card .card-content .stacks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.complain .info .card .card-content .stacks svg {
+    color: #d87631;
+}
+
+.complain .info .card .card-content .stacks h6 {
+    margin: 0px;
+    line-height: 1.57143;
+    font-size: 0.875rem;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .complain .info .card .card-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}

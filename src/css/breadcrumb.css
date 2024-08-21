@@ -1,0 +1,63 @@
+.breadcrumb ol {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.breadcrumb ol li {
+    display: inline-flex;
+    margin: 2px 0px;
+}
+
+.breadcrumb ol li a {
+    line-height: 1.57143;
+    font-size: 0.875rem;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    font-style: inherit;
+    font-variant: inherit;
+    font-stretch: inherit;
+    font-optical-sizing: inherit;
+    font-kerning: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    text-decoration: none;
+    line-height: 1.57143;
+    font-size: 1rem;
+    font-weight: 400;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(33, 43, 54);
+    display: inline-flex;
+}
+
+.breadcrumb ol li.MuiBreadcrumbs-separator {
+    display: flex;
+    user-select: none;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.breadcrumb ol li.MuiBreadcrumbs-separator span {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgb(145, 158, 171);
+}
+
+.breadcrumb ol li p {
+    line-height: 1.57143;
+    font-size: 1rem;
+    font-weight: 400;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(145, 158, 171);
+    display: inline-flex;
+    cursor: default;
+    pointer-events: none;
+}

@@ -1,0 +1,106 @@
+.contactus .box {
+    background: #FFFFFF;
+    border: 1px solid #D9DCE2;
+    box-sizing: border-box;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    overflow: hidden;
+    margin: 0.5rem 0.875rem;
+    padding: 0 2.4rem;
+    transition: box-shadow .3s, background-color .3s;
+}
+
+.contactus .box .text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 0.8rem;
+}
+
+.contactus .box .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 0.8rem;
+    color: #777;
+}
+
+.contactus .TextContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0.875rem;
+}
+
+.contactus .TextContainer h3 {
+    width: 100%;
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 1.8rem;
+    letter-spacing: -.4px;
+}
+
+.contactus .TextContainer p {
+    width: 100%;
+    display: block;
+    line-height: 1.5;
+    margin-bottom: 1.825rem;
+    font-size: 1rem;
+}
+
+.contactus .whitecard {
+    background: #fff;
+    box-shadow: 0 .6rem 1rem -.6rem rgba(4, 4, 5, .3);
+    padding: 2.5rem 2rem 2.2rem 2rem;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.4rem;
+    min-height: 190px;
+    margin-bottom: 1rem;
+    margin: 0.5rem 0.875rem;
+}
+
+.contactus .whitecard .whiteCardTxet {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+.contactus .whitecard .whiteCardTxet h4{
+    font-size: 1.3rem;
+    margin-top: 0;
+    text-align: start;
+    line-height: 1.1;
+    margin-bottom: .8rem;
+    font-weight: 600;
+}
+.contactus .whitecard .whiteCardTxet p{
+    width: 100%;
+    display: block;
+    line-height: 1.5;
+    margin-bottom: 1.825rem;
+    font-size: 1rem;
+}
+.contactus .whitecard .whiteCardTxet button {
+    background: #D87631;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0.8rem 1.6rem;
+    border: none;
+    cursor: pointer;
+}
+.contactus .whitecard .whiteCardTxet button:hover {
+    background: #f9a84f;
+    color: #fff;
+    transition: all 0.3s ease;
+}

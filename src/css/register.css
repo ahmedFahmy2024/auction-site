@@ -1,0 +1,260 @@
+.register {
+    background-color: #F2F2F2;
+}
+
+.register .image-container {
+    background-image: url("../assets/Mask\ group.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    height: 100%;
+}
+
+.register .padding {
+    padding: 10%;
+}
+
+.register .grid-image,
+.register .grid-text {
+    padding: 0 8px 0 8px !important;
+}
+
+.register .padding h2 {
+    color: #034694;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.register .two-inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.register .two-inputs fieldset.MuiOutlinedInput-notchedOutline {
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .register .two-inputs {
+        flex-direction: column;
+    }
+}
+
+.register fieldset.MuiOutlinedInput-notchedOutline {
+    background-color: white;
+}
+
+.register input,
+.register svg {
+    z-index: 1;
+}
+
+.rtl.register input {
+    text-align: right;
+}
+
+.register div#demo-select-small {
+    z-index: 1;
+}
+
+.register div#country-select,
+.register div#state-select {
+    z-index: 1;
+}
+
+.register .stack {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.register .stack2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.register .stack2 span {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.register .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto 20px auto;
+}
+
+.register .profile-pic img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    background-color: #919eab14;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.register .profile-pic input {
+    display: none;
+}
+
+.register .profile-pic label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.register .checkout-select div#demo-select-small1 {
+    z-index: 1;
+}
+
+.register .checkout-select div#demo-select-small2 {
+    z-index: 1;
+}
+
+/* ul[aria-labelledby=demo-select-small-label] li.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters {
+    justify-content: flex-end;
+} */
+
+.register .grid-text .padding .images {
+    padding: 40px;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(145, 158, 171, 0.08);
+    border: 1px dashed rgba(145, 158, 171, 0.2);
+    transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, padding 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.register .grid-text .padding .images .image {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 24px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.register .grid-text .padding .images .image .para {
+    margin: 0px;
+    line-height: 1.57143;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgb(99, 115, 129);
+}
+
+.register .grid-text .padding .images .image .browse {
+    margin-left: 4px;
+    margin-right: 4px;
+    color: #212b36;
+    text-decoration: underline;
+}
+
+.register .grid-text .padding .preview {
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 4px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    opacity: 1;
+    transform: none;
+}
+
+.register .grid-text .padding .preview .prev-image {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: fit-content;
+    height: inherit;
+}
+
+.register .grid-text .padding .preview .prev-image img {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+    position: absolute;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.register .grid-text .padding .preview .prev-image .close {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    text-align: center;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    overflow: visible;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.125rem;
+    padding: 4px;
+    top: 4px;
+    right: 4px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: rgba(22, 28, 36, 0.48);
+}
+
+.register .grid-text .padding .preview .prev-image .close:hover {
+    background-color: rgba(22, 28, 36, 0.72);
+}
+.register .grid-text .padding .details-info-imp {
+    font-size: 12px;
+    color: rgb(0 0 0 / 60%);
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.register .grid-text .privacy-info {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    margin-bottom: 10px
+}

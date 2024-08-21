@@ -1,0 +1,64 @@
+.info {
+    background-color: #FFF;
+}
+
+.info .info-text {
+    padding: 12% 10%;
+    text-align: right;
+}
+
+.info .info-text h3 {
+    font-weight: 500;
+    font-size: 16;
+    text-align: inherit;
+    color: var(--primary-color);
+}
+
+.info .info-text h2 {
+    font-weight: 500;
+    font-size: 24;
+    text-align: inherit;
+    color: #3E3E3E;
+    margin-bottom: 10px;
+}
+
+.info .info-text p {
+    font-weight: 400;
+    font-size: 20;
+    text-align: inherit;
+    color: #6B6B6B;
+}
+
+.info .info-text .last-para {
+    margin-top: 10px;
+}
+
+.info .info-img {
+    height: 450px;
+}
+
+.info .info-img img {
+    max-width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.info .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.13) 0%, rgba(0, 0, 0, 0.62) 100%);
+    background-blend-mode: multiply;
+}
+
+@media (max-width: 900px) {
+    .info .info-text {
+        padding: 5%;
+        text-align: center;
+    }
+}

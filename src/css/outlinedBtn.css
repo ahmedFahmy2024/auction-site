@@ -1,0 +1,16 @@
+.outlined-btn {
+    color: var(--primary-color);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    min-width: fit-content;
+}
+
+.outlined-btn:hover {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+    border-color: var(--primary-color) !important;
+}

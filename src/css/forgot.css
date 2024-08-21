@@ -1,0 +1,85 @@
+.forgot {
+    background-color: #F2F2F2;
+}
+
+.forgot .image-container {
+    background-image: url("../assets/Mask\ group.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    height: 100%;
+}
+
+.forgot .padding {
+    padding: 10%;
+}
+
+.forgot .grid-image,
+.forgot .grid-text {
+    padding: 0 8px 0 8px !important;
+}
+
+.forgot .padding h2 {
+    color: #034694;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.forgot fieldset.MuiOutlinedInput-notchedOutline {
+    background-color: white;
+    color: black;
+}
+
+.forgot input,
+.forgot svg {
+    z-index: 1;
+}
+
+.forgot .stack {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.dialog h3 {
+    text-align: center;
+}
+
+.dialog p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.otp-form {}
+
+.otp-form .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.otp-form .container input {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    --tw-text-opacity: 1;
+    color: rgb(15 23 42 / var(--tw-text-opacity));
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    padding: 1rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+    border-color: transparent;
+    border-width: 1px;
+    border-radius: 0.25rem;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 3.5rem;
+    height: 3.5rem;
+}

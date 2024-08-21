@@ -1,0 +1,29 @@
+.filter1 {}
+
+.filter1 .filter1-title .filter1-title-header {
+    margin-top: 20px;
+    font-weight: 500;
+    color: #000000;
+    margin-right: 9px;
+}
+
+.filter1 .filter1-title .check-one {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.filter1 .filter1-title .check-one span {
+    padding: 9px 9px 0;
+}
+
+.filter1 .filter1-title .check-desc {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.filter1-title .contractorfilter {
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-bottom: 0;
+}

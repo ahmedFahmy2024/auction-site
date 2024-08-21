@@ -1,0 +1,116 @@
+.registeredauctions {
+    width: 100%;
+}
+
+.registeredauctions .registeredauctions-container {
+    padding: 0 70px 0 50px;
+}
+
+.registeredauctions .box {
+    border: 1px solid #BFBFBF;
+    cursor: pointer;
+    position: relative;
+}
+
+.registeredauctions .box .img-container img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+.registeredauctions .box .text {
+    padding: 0 10px;
+}
+
+.registeredauctions .box .text h4 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.registeredauctions .box .text .stack {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.registeredauctions .box .text .stack-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.registeredauctions .box .text .stack.mb {
+    margin-bottom: 10px;
+}
+
+.registeredauctions .box .text .stack-row .category {
+    border-radius: 25px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    border-radius: 25px;
+    background-color: #D87631;
+    color: white;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.registeredauctions .box .text .stack .icons {
+    margin-top: 10px;
+}
+
+.registeredauctions .box .text .stack .icons.border-left {
+    border-left: 1px solid #00000030;
+    padding-left: 10px;
+}
+
+.registeredauctions .box .text .stack .icons div {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .registeredauctions .box .text {
+        text-align: center;
+    }
+
+    .registeredauctions .box .text h4 {
+        font-size: 16px;
+    }
+
+    .registeredauctions .box .text .stack .category {
+        padding: 2px 4px;
+        font-size: 13px;
+    }
+
+    .registeredauctions .box .text .stack {
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .registeredauctions .registeredauctions-container {
+        padding: 0;
+    }
+}
+
+.registeredauctions .view-btn {
+    background-color: #D87631;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto 10px;
+}

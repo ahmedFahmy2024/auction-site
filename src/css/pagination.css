@@ -1,0 +1,10 @@
+.mypagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.mypagination.rtl ul {
+    flex-direction: row-reverse;
+}

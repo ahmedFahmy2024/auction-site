@@ -1,0 +1,36 @@
+.packages {
+    width: 100%;
+}
+
+.packages .packages-container {
+    padding: 0 70px 0 50px;
+}
+
+.packages .packages-container .second-row {
+    margin-top: 20px;
+}
+
+.packages .packages-container .forth-row {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.packages .packages-container .data-picker-new label {
+    top: -7px;
+}
+
+.packages .packages-container .data-picker-new [data-shrink="true"] {
+    top: 0;
+}
+
+.packages .packages-container .data-picker-new input {
+    padding: 8.5px 14px;
+}
+
+@media (max-width: 768px) {
+    .packages .packages-container {
+        padding: 0;
+    }
+}

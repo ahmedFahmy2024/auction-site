@@ -1,0 +1,16 @@
+.subcontractors .search-position {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: -50px !important;
+}
+
+.subcontractors .login .image-container {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .subcontractors .search-width {
+        width: 75% !important;
+    }
+}

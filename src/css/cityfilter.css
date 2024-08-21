@@ -1,0 +1,53 @@
+.cityfilter {
+    margin-top: 20px;
+}
+
+.cityfilter .two-inputs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cityfilter .two-inputs .country {
+    width: 150px;
+}
+
+.cityfilter .two-inputs .country .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-sizeSmall {
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.cityfilter .two-inputs .country label {
+    color: #AC5C008A !important;
+    top: -9px !important;
+}
+
+.cityfilter .two-inputs .country svg {
+    color: #515151 !important;
+    z-index: 1 !important;
+}
+
+.cityfilter fieldset.MuiOutlinedInput-notchedOutline {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: white;
+    border-radius: 29px;
+}
+
+.cityfilter div#country-select {
+    z-index: 1;
+    padding: 5px;
+}
+
+.cityfilter div#state-select {
+    z-index: 1;
+    padding: 5px;
+}
+
+.cityfilter .checkout-select div#demo-select-small1 {
+    z-index: 1;
+}
+
+.cityfilter .checkout-select div#demo-select-small2 {
+    z-index: 1;
+}

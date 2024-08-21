@@ -1,0 +1,25 @@
+/* .box .project {
+    background-color: #D9D9D9;
+    padding: 20px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.box .project h4 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.box .project p {
+    font-weight: 400;
+    font-size: 16px;
+} */
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,47 @@
+.userrequest{
+    width: 100%;
+    padding: 0 70px 0 50px;
+}
+
+.userrequest .item {
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    align-items: center;
+    width: 100%;
+}
+.userrequest .item .first-line .sentence {
+    line-height: 1.5;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: rgb(145, 158, 171);
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.userrequest .item .first-line .sentence strong{
+    font-weight: 600;
+    line-height: 1.57143;
+    font-size: 0.875rem;
+    color: black;
+}
+.userrequest .item .second-line {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+}
+.userrequest .item .text {
+    width: 100%;
+}
+.userrequest .item .first-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ltr.userrequest .nav-icon {
+    transform: rotate(180deg);
+}

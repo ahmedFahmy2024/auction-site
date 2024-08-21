@@ -1,0 +1,140 @@
+.package {
+    background-color: #F2F2F2;
+    padding: 20px 0;
+}
+
+.package .title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #034694;
+}
+
+.package .box {
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #979797;
+    padding: 20px;
+}
+
+.package .box .header-package .title-first {
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+    text-align: center;
+}
+
+.package .box hr {
+    border: 1px solid;
+    border-color: #ED5315;
+    margin: 20px 0;
+}
+
+.package .box .body .each-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.package .box .body .each-text:last-child {
+    margin-top: 10px;
+}
+
+.package .box .body .each-text p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #454545;
+}
+
+.package .box .body .each-text .row-fi-first {
+    margin-bottom: 40px;
+}
+
+.package .box .body .each-text .row-fi-second {
+    margin-bottom: 10px;
+}
+
+.package .box .body .each-text .row-fi-third {
+    margin-bottom: 160px;
+}
+
+.package .box .body .each-text .row-fi-forth {
+    margin-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+    .package .box .body .each-text .row-fi-first {
+        margin-bottom: 0;
+    }
+
+    .package .box .body .each-text .row-fi-third {
+        margin-bottom: 0;
+    }
+
+    .package .box .body .each-text .row-fi-forth {
+        margin-bottom: 0;
+    }
+}
+
+.package .box .foter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.package .box .foter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.package .box .foter .outline-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #959595;
+    border: 1px solid #959595;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: white;
+    width: 100% !important;
+    cursor: pointer;
+}
+
+.package .box .foter .outline-btn.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #D87631;
+    border: 1px solid #D87631;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: white;
+    width: 100% !important;
+}
+
+.package .box .body .text-header-li {
+    font-weight: 500;
+    font-size: 16px;
+    color: #454545;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.whiteText fieldset.MuiOutlinedInput-notchedOutline {
+    background-color: white;
+    color: black ;
+}
+.whiteText input {
+    color: black ;
+    z-index: 10;
+}

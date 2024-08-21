@@ -1,0 +1,389 @@
+.supplierform {
+    /* background-color: #F2F2F2; */
+    padding: 20px 0;
+    width: 100%;
+}
+
+.supplierform .head-title {
+    color: #034694;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.supplierform .section-one {
+    background-color: white;
+    /* padding: 20px; */
+}
+
+.supplierform .section-one .between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.supplierform .section-one .stack {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.supplierform .section-one .stack .outline-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D87631;
+    border: 1px solid #D87631;
+    border-radius: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.supplierform .section-one .stack .outline-btn:hover {
+    background-color: #D87631;
+    color: white;
+}
+
+.supplierform .section-one .stack .outline-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
+.supplierform .section-one .stack .contain-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    background-color: #D87631;
+    border-radius: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.supplierform .section-one .stack .contain-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
+.supplierform .section-one .text-sec {
+    margin: 10px 0;
+}
+
+.supplierform .section-one .text-sec .stack-row {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.supplierform .section-one .stack hr {
+    height: 20px;
+    width: 1px;
+    border-width: 0;
+    background-color: #B1B1B1;
+    margin: 0 10px;
+}
+
+.supplierform .section-one .stack.gap {
+    gap: 10px;
+}
+
+.supplierform .section-one .stack-row .date {
+    color: #606060;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.supplierform .section-one .stack .views {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.supplierform .section-one .stack .views .view-num {
+    color: #034694;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.supplierform .section-one .category {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.supplierform .section-one .category .category-name {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.supplierform .section-one .category .card-category {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    color: #AC5C008A;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.supplierform .section-one .location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #606060;
+    margin-top: 10px;
+}
+
+.supplierform .section-one .location .country {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.supplierform .section-one .location .country .country-text {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.supplierform .section-one .location .state {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.supplierform .section-one .location .state .state-text {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.supplierform .section-one .stack-row-two {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.supplierform .section-one .content {
+    color: #5F5F5F;
+}
+
+.supplierform .section-one .row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.supplierform .section-one .file {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.supplierform .section-one .file-input {
+    margin-top: 10px;
+}
+
+.file-input__input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.file-input__label {
+    cursor: pointer;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 12px;
+    background-color: white;
+    border: 1px solid #034694;
+    color: #034694;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+}
+
+.supplierform .section-two {
+    background-color: white;
+    padding: 100px;
+    margin-top: 50px;
+}
+
+.supplierform .section-two .title {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.supplierform .section-two .first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #B1B1B1;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.supplierform .section-two .first-row .first-col {}
+
+.supplierform .section-two .first-row .first-col .name {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.supplierform .section-two .first-row .first-col hr {
+    width: 100%;
+    height: 1px;
+    background-color: #B1B1B1;
+    border-width: 0;
+    margin: 10px 0;
+}
+
+.supplierform .section-two .first-row .first-col .value {
+    color: #034694;
+    font-size: 18px;
+}
+
+.supplierform .section-two .first-row .v-hr {
+    width: 1px;
+    height: 100px;
+    background-color: #B1B1B1;
+    border-width: 0;
+    margin: 0 10px;
+}
+
+.supplierform .section-two .first-row .second-col .desc {
+    color: #525252;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.supplierform .section-two .first-row .third-col .contain-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    background-color: #D87631;
+    border-radius: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.supplierform .section-two .first-row .third-col .contain-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
+.supplierform .preview {
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 4px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    /* border: 1px solid rgba(145, 158, 171, 0.16); */
+    opacity: 1;
+    transform: none;
+}
+
+.supplierform .preview .prev-image {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: fit-content;
+    height: inherit;
+}
+
+.supplierform .preview .prev-image img {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    object-fit: contain;
+    /* position: absolute; */
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+@media (max-width: 768px) {
+    .supplierform .section-two {
+        padding: 20px;
+    }
+
+    .supplierform .section-two .first-row {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .supplierform hr {
+        display: none;
+    }
+
+    .supplierform .section-two .first-row .third-col .contain-btn {
+        margin: 10px 0;
+    }
+
+    .supplierform .section-two .first-row .second-col .desc {
+        margin-top: 10px;
+    }
+
+    .supplierform h4.title {
+        font-size: 16px;
+    }
+    .supplierform h3.name {
+        font-size: 16px;
+    }
+    .supplierform .section-one .stack-row .date {
+        font-size: 16px;
+    }
+    .supplierform .section-one .location .country .country-text {
+        font-size: 16px;
+    }
+    .supplierform .section-one .location .state .state-text {
+        font-size: 16px;
+    }
+    .supplierform .header-title-text-word {
+        font-size: 16px;
+    }
+    .supplierform .section-one .content {
+        font-size: 16px;
+    }
+    .supplierform .section-one .file {
+        font-size: 16px;
+    }
+    .supplierform .section-one .category .card-category {
+        font-size: 14px;
+    }
+}

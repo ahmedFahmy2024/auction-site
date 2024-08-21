@@ -1,0 +1,52 @@
+.sidebar {
+    width: 30%;
+}
+
+.sidebar a.active .sidebar-item {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+}
+
+.sidebar .sidebar-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.sidebar .sidebar-item .sidebar-item-text {}
+
+
+/* ============ mobile ============== */
+
+.sidebar .mobile {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sidebar .mobile .sidebar-item {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 8px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sidebar .mobile .sidebar-item .sidebar-item-text {
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        overflow-x: auto;
+    }
+    /* ::-webkit-scrollbar{
+        width: 0px;
+        background: transparent; 
+    } */
+}
